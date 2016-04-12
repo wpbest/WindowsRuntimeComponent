@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="3.2">
+        <id>WindowsRuntimeComponent.Uwp.Native</id>
+        <title>Windows Runtime Component Native Library for Windows 10 UWP</title>
+        <version>1.0.0.1</version>
+        <authors>BestWaySoftware</authors>
+        <owners>BestWaySoftware</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easily add Xpf to your applications. The Best Way Software Xpf Library for Universal Windows Platform</description>
+        <summary>Xpf UWP library</summary>
+        <releaseNotes>Xpf version 1.0.0.1</releaseNotes>
+        <copyright>Copyright © Best Way Software</copyright>
+        <tags>BestWaySoftware Xpf Uwp Native</tags>
+    </metadata>
+    <files>
+        <file src="WindowsRuntimeComponent.targets"                                                target="build\native\" />
+        <file src="WindowsRuntimeComponent\SoftwareComponent.h"                                    target="build\native\include\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.winmd" target="lib\uap10.0\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.lib"   target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.dll"   target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.pdb"   target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.pri"   target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Release\WindowsRuntimeComponent.winmd" target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.lib"     target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.dll"     target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.pdb"     target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.pri"     target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.winmd"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Release\WindowsRuntimeComponent.lib"     target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Release\WindowsRuntimeComponent.dll"     target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Release\WindowsRuntimeComponent.pdb"     target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.pri"     target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Release\WindowsRuntimeComponent.winmd"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Debug\WindowsRuntimeComponent.lib"     target="build\native\win10-x86\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Debug\WindowsRuntimeComponent.dll"     target="build\native\win10-x86\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Debug\WindowsRuntimeComponent.pdb"     target="build\native\win10-x86\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Debug\WindowsRuntimeComponent.pri"     target="build\native\win10-x86\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\Win32\Debug\WindowsRuntimeComponent.winmd"   target="build\native\win10-x86\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Debug\WindowsRuntimeComponent.lib"       target="build\native\win10-x64\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Debug\WindowsRuntimeComponent.dll"       target="build\native\win10-x64\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Debug\WindowsRuntimeComponent.pdb"       target="build\native\win10-x64\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Debug\WindowsRuntimeComponent.pri"       target="build\native\win10-x64\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\x64\Debug\WindowsRuntimeComponent.winmd"     target="build\native\win10-x64\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Debug\WindowsRuntimeComponent.lib"       target="build\native\win10-arm\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Debug\WindowsRuntimeComponent.dll"       target="build\native\win10-arm\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Debug\WindowsRuntimeComponent.pdb"       target="build\native\win10-arm\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Debug\WindowsRuntimeComponent.pri"       target="build\native\win10-arm\" />
+        <file src="Output\Bin\WindowsRuntimeComponent\ARM\Debug\WindowsRuntimeComponent.winmd"     target="build\native\win10-arm\" />
+    </files>
+</package>
